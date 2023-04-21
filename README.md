@@ -3,24 +3,24 @@ This project is aimed at collecting gyroscope and accelerometer data from a mobi
 The collected data can be used for a wide range of applications such as motion tracking, activity recognition, and fitness monitoring.
 
 # Technologies Used
-Android Studio: to develop the mobile application
-Firebase Realtime Database: to store the collected data
-Java: to write the code for the mobile application
-JavaScript: to write the code for the website
+Android Studio: to develop the mobile application <br>
+Firebase Realtime Database: to store the collected data <br>
+Java: to write the code for the mobile application <br>
+JavaScript: to write the code for the website <br>
 
 # Installation
 To use this project, you will need:
-Android Studio version 4.1 or higher
+Android Studio version 4.1 or higher <br>
 A Firebase account
 
 # Usage
-Clone the repository to your local machine.
-Open the project in Android Studio.
-Connect your mobile device to the computer and run the application.
-The application will start collecting gyroscope and accelerometer data from the mobile device.
-The collected data will be synced to a Firebase Realtime Database.
-The website will use Firebase's Realtime Database API to display the collected data.
-You can view the collected data in the Firebase console and on the website.
+Clone the repository to your local machine. <br>
+Open the project in Android Studio. <br>
+Connect your mobile device to the computer and run the application. <br>
+The application will start collecting gyroscope and accelerometer data from the mobile device. <br>
+The collected data will be synced to a Firebase Realtime Database. <br>
+The website will use Firebase's Realtime Database API to display the collected data. <br>
+You can view the collected data in the Firebase console and on the website. <br>
 
 # Results
  View the result here - https://drive.google.com/drive/folders/1kbxaozLBmDHuu2_mJLiachWuNKcP2EfA?usp=sharing
