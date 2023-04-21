@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "407244447376",
+    "firebase_url": "https://sensorprojects-6db23-default-rtdb.firebaseio.com",
+    "project_id": "sensorprojects-6db23",
+    "storage_bucket": "sensorprojects-6db23.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:407244447376:android:12b746df77f29333a98215",
+        "android_client_info": {
+          "package_name": "com.ujjwal.sensordata"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "407244447376-b1tc5tap645s929e2dknung4rs13spq4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdKDIr6d3-U7ZpbPm1B9afLtGLFMSBMHw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "407244447376-b1tc5tap645s929e2dknung4rs13spq4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
