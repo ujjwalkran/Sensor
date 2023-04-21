@@ -27,7 +27,15 @@ You can view the collected data in the Firebase console and on the website.
  
  # Team Contribution
  Website to stream the data is made by
- @ChinmayaShyamaraj 
- @adril27
- @NiyataNaik
+ [Chinmaya Shyamraj](https://github.com/ChinmayaShyamaraj) - Firebase connectivtiy to website
+ [Adril Vaz](https://github.com/adril27) - Firebase connectivtiy to website
+ [Niyata Naik](https://github.com/NiyataNaik) - Website Frontend
+
+Android App is made by 
+[Ujjwal Karan](https://github.com/ujjwalkran) - App Backend and Firebase Connectivity
+[Sammitha S Poojary](https://github.com/SammithaS) - App Frontend
+[Shri Hari](https://github.com/Shri243) - App Backend and Firebase Connectivity
+
+# Website Repo link
+Here is the website repo link that streams the data - https://github.com/ujjwalkran/Sensorweb
  
