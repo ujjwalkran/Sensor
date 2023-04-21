@@ -26,7 +26,7 @@ You can view the collected data in the Firebase console and on the website.
  View the result here - https://drive.google.com/drive/folders/1kbxaozLBmDHuu2_mJLiachWuNKcP2EfA?usp=sharing
  
  # Team Contribution
- Website to stream the data is made by
+ Website to stream the data is made by <br>
  [Chinmaya Shyamraj](https://github.com/ChinmayaShyamaraj) - Firebase connectivtiy to website
  [Adril Vaz](https://github.com/adril27) - Firebase connectivtiy to website
  [Niyata Naik](https://github.com/NiyataNaik) - Website Frontend
