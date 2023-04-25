@@ -4,7 +4,7 @@ The collected data can be used for a wide range of applications such as motion t
 
 # Technologies Used
 - Android Studio: to develop the mobile application <br>
-F- irebase Realtime Database: to store the collected data <br>
+- Firebase Realtime Database: to store the collected data <br>
 - Java: to write the code for the mobile application <br>
 - JavaScript: to write the code for the website <br>
 
