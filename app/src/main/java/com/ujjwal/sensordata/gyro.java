@@ -1,6 +1,6 @@
 package com.ujjwal.sensordata;
 
-public class gyro {
+public class gyro {                             //class to handle gyroscope data
     public float x1, x2, x3, x4;
 
     public gyro(float x1, float x2, float x3, float x4) {
@@ -9,7 +9,7 @@ public class gyro {
         this.x3 = x3;
         this.x4 = x4;
     }
-
+    //individual methods to get different axes data values
     public float getX1() {
         return x1;
     }
