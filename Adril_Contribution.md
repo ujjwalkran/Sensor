@@ -1,7 +1,7 @@
 # Adril Vaz Contribution
 
 
-### I have fetched the value from the firebase and streamed same to the website
+I have fetched the value from the firebase and streamed same to the website. [Niyata N Naik](https://github.com/NiyataNaik) helped me in this. We both worked on this together.
 
 
 var firebaseConfig = {
