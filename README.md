@@ -24,12 +24,11 @@ A Firebase account
 
 ## Results
  View the result here - https://drive.google.com/drive/folders/1kbxaozLBmDHuu2_mJLiachWuNKcP2EfA?usp=sharing
- ## Team Contribution
-<br>
- - [Chinmaya Shyamraj](https://github.com/ChinmayaShyamaraj) - Firebase connectivtiy to website <br>
- - [Adril Vaz](https://github.com/adril27) - Firebase connectivtiy to website <br>
- - [Niyata Naik](https://github.com/NiyataNaik) - Website Frontend <br>
- <br>
+ 
+ ## Team Contribution <br>
+- [Chinmaya Shyamraj](https://github.com/ChinmayaShyamaraj) - Firebase connectivtiy to website <br>
+- [Adril Vaz](https://github.com/adril27) - Firebase connectivtiy to website <br>
+- [Niyata Naik](https://github.com/NiyataNaik) - Website Frontend <br>
 - [Ujjwal Karan](https://github.com/ujjwalkran) - App Backend and Firebase Connectivity <br>
 - [Sammitha S Poojary](https://github.com/SammithaS) - Website Frontend and realtime data fetching from firebase <br>
 - [Shri Hari](https://github.com/Shri243) - App Backend and Firebase Connectivity <br>
