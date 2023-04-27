@@ -1,0 +1,166 @@
+# Sammitha S Contribution
+
+I made Web Frontend and also helped in retriving the real time data from firebase.
+
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>Sensor data</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Firebase SDK -->
+<script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-database.js"></script>
+
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body style="background-color:#1AA7EC;font-family: 'Poppins', sans-serif;">
+      <nav>
+       
+        <!--
+        <div class="logo"><img src="image/redbus.jpg" height="60px" width="100%" alt="" ></div>   
+        -->
+        <h1 style="color: #1AA7EC;text-align: center;padding-left:50%;">Sensor Data</h1>
+        
+     </nav>
+          <h2 style="color: blanchedalmond;padding-left: 10%;">Accelerometer</h2>
+    <div class="col-md-10 ">
+        <div class="row ">
+            <div class="col-xl-3 col-lg-6">
+                <div class="card l-bg-cherry">
+                    <div class="card-statistic-3 p-4">
+                        <div class="text">
+                            
+                        Accelerometer X value :<div id="xvalue" style="display: inline-block;"> </div>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-6">
+                <div class="card l-bg-blue-dark">
+                    <div class="card-statistic-3 p-4">
+                      <div class="text" id="text">
+                          Accelerometer Y value :
+                        <div id="yvalue" style="display: inline-block;">
+                             
+                        </div>
+                        </div>
+                      
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-6">
+                <div class="card l-bg-green-dark">
+                    <div class="card-statistic-3 p-4">
+                      <div class="text" id="text">
+                          Accelerometer Z value :
+                        <div id="zvalue" style="display: inline-block;">
+                            
+                       </div>
+                       </div>
+                  
+                    </div>
+                </div>
+            </div>
+              <h2 style="color: blanchedalmond;padding-left: 10%;">Gyroscope</h2>
+            <div class="col-md-10 ">
+                <div class="row ">
+                    <div class="col-xl-3 col-lg-6">
+                        <div class="card l-bg-cherry">
+                            <div class="card-statistic-3 p-4">
+                              <div class="text" id="text"> 
+                                Gyroscope X value :
+                              <div id="xgvalue" style="display: inline-block;">
+                                   
+                              </div>
+                              </div>
+                                 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-6" >
+                        <div class="card l-bg-blue-dark">
+                            <div class="card-statistic-3 p-4">
+                              <div class="text" id="text">
+                                Gyroscope Y value :
+                              <div id="ygvalue" style="display: inline-block;">
+                                   
+                              </div>
+                              </div>
+                               
+                            </div>
+                        </div>
+                    
+                    <div class="col-xl-3 col-lg-6">
+                        <div class="card l-bg-green-dark">
+                            <div class="card-statistic-3 p-4">
+                              <div class="text" id="text">
+                                Gyroscope Z value :
+                              <div id="zgvalue" style="display: inline-block;">
+                                   
+                              </div>
+                              </div>
+                               
+                            </div>
+                        
+                      </div>
+                    </div>    
+        </div>
+
+
+      </div>
+		</div>
+    
+    
+    
+    
+    # Changes I have done to fetch the realtime data from firebase
+    
+    
+accelXRef.on('value',function(snapshot) {
+  var accelXValue=snapshot.val();
+  document.getElementById("xvalue").innerHTML=accelXValue;
+  
+});
+
+accelYRef.on('value',function(snapshot) {
+  var accelYValue = snapshot.val();
+  // Do something with the accelYValue
+ 
+document.getElementById("yvalue").innerHTML=accelYValue
+
+});
+
+accelZRef.on('value',function(snapshot) {
+  var accelZValue = snapshot.val();
+  // Do something with the accelZValue
+ document.getElementById("zvalue").innerHTML=accelZValue;
+});
+
+gyroXRef.on('value',function(snapshot) {
+  var gyroXValue = snapshot.val();
+  // Do something with the gyroXValue
+document.getElementById("xgvalue").innerHTML=gyroXValue;
+});
+
+gyroYRef.on('value',function(snapshot) {
+  var gyroYValue = snapshot.val();
+document.getElementById("ygvalue").innerHTML=gyroYValue;
+});
+
+gyroZRef.on('value',function(snapshot) {
+  var gyroZValue = snapshot.val();
+ document.getElementById("zgvalue").innerHTML= gyroZValue;
+
+});
+    
