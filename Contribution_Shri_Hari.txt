@@ -1,0 +1,23 @@
+# Shri Hari Contribution
+
+I helped in setting up firebase. I helped Ujjwal in successfully uploading realtime sensor values to the firebase. I also helped him in making of App.
+
+
+FirebaseDatabase db;
+DatabaseReference reference;
+ db = FirebaseDatabase.getInstance();
+        reference = db.getReference("Sensorvalue");
+        reference.child("acclerometer").setValue(sesor1val).addOnCompleteListener(new OnCompleteListener<Void>() {
+            @Override
+            public void onComplete(@NonNull Task<Void> task) {
+                Toast.makeText(MainActivity.this, "Data Inserted", Toast.LENGTH_SHORT).show();
+            }
+        });
+        reference = db.getReference("Sensorvalue");
+        reference.child("gyroscope9").setValue(gyrodata).addOnCompleteListener(new OnCompleteListener<Void>() {
+            @Override
+            public void onComplete(@NonNull Task<Void> task) {
+                Toast.makeText(MainActivity.this, "Data Inserted", Toast.LENGTH_SHORT).show();
+            }
+        });
+    }
